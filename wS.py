@@ -71,6 +71,7 @@ from selenium.webdriver.common.by import By
 
 
 driver = webdriver.Chrome()
+
 driver.implicitly_wait(10) # seconds
 
 url = "https://www.woolworths.com.au/shop/browse/drinks/cordials-juices-iced-teas/iced-teas"
